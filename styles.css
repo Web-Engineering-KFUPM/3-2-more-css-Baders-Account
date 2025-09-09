@@ -141,6 +141,70 @@ body {
 }
 
 
+.copy .title {
+  
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+}
+
+.copy .intro {
+ 
+  font-style: italic;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.copy .sample-text {
+  
+  font-family: serif;
+  font-size: 1.1em;
+  color: #1f2937;
+}
+
+.cta-link {
+  
+  text-decoration: none;
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.cta-link:hover{
+  text-decoration: underline;
+  color: hsl(221 83% 40%);
+}
+
+
+.box {
+  /* TODO: set the width and height; add padding; add border */
+  /* TODO: rounded corners; flex centering */
+  width: 120px;
+  height: 80px;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  background: #fafafa;
+  font-weight:600;
+}
+.b1 {
+  /* TODO (WRITE): unique style */
+  background: #e0f2fe;
+  border-color: #93c5fd;
+   }
+.b2 {
+  /* TODO (WRITE): unique style */
+  background: #dcfce7;
+  border-color: #86efac;}
+.b3 {
+  /* TODO (WRITE): unique style */
+  background: #fee2e2;
+  border-color: #fca5a5; 
+}
+
 
 .tagline{
     color: var(--muted);
