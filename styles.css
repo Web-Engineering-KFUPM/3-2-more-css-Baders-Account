@@ -69,6 +69,18 @@
 */
 
 html,
+
+* {
+  box-sizing: border-box;
+}
+:root{
+  --brand: hsl(221 83% 53%);
+  --muted: #6b7280;
+  --bg: #f6f7fb;
+  --card: #ffffff;
+}
+
+
 body {
   margin: 0;
   padding: 0;
