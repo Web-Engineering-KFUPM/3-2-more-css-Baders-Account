@@ -243,6 +243,89 @@ body {
   border-radius:10px;
 }
 
+.static-box{
+
+  border: 1px solid #985a5b;
+  background: #e2e4e1;
+  padding: 0.5rem 0,75rem;
+  border-radius: 8px;
+  display: inline-block;
+
+}
+
+.relative-box{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  border: 1px solid #c7d2fe;
+  background: #e2f0e2;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.absolute-parent{
+  position: relative;
+  border: 1px solid #fca5a5;
+  background: #fee2e2;
+  padding: 1.25rem, 1.5rem;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.absolute-child{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: 1px solid #f87171;
+  background: #fecaca;
+  padding: 0.35rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+
+.fixed-badge{
+  position: fixed;
+  right: 16px;
+  bottom:16px;
+  border: 1px solid #34d399;
+  background: #d1fae5;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  font-weight:600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+
+.stack {  
+  width: 60px;
+  height: 60px;
+  top:70px;
+  left: 60px;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.stack.a {
+  background: #22af88;
+  z-index: 1;
+}
+
+.stack.b {
+  background: #823b6d;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+
+
+
+
 .tagline{
     color: var(--muted);
 
