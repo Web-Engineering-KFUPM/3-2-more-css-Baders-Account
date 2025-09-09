@@ -92,10 +92,16 @@ body {
 
 .site-header,
 .site-footer {
+  Background: var(--card);
   text-align: center;
   padding: 1.25rem;
 }
 
+
+.tagline{
+    color: var(--muted);
+
+}
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -108,6 +114,7 @@ body {
   border-radius: 12px;
   padding: 1rem 1.25rem;
   margin-block: 1rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
 }
 
 .box-row {
