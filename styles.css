@@ -98,6 +98,32 @@ body {
 }
 
 
+.color-demo, .color-note{
+
+  color: var(--card);
+  font-weight: 700;
+
+}
+
+.color-demo .muted{
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.bg-sample{
+  width: 100%;
+  min-height: 80px;
+  background-color: linear-gradient(135deg, hsl(221 83% 96%), hsl(221 83% 92%));;
+   border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  color: #374151;
+  
+}
+
+
+
 .tagline{
     color: var(--muted);
 
