@@ -191,16 +191,57 @@ body {
 }
 .b1 {
   background: #e0f2fe;
-  border-color: #93c5fd;
+  border-color: #a54e23;
    }
 .b2 {
   background: #dcfce7;
-  border-color: #86efac;}
+  border-color: #963247;}
 .b3 {
   background: #fee2e2;
-  border-color: #fca5a5; 
+  border-color: #213247; 
 }
 
+.toolbar {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 1px dashed rgba(0,0,0,0.1);
+}
+
+.btn {
+  
+  padding: 0.55rem 0.9rem;
+  background: #eef2ff;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: #e0e7ff;
+}
+
+.product-grid {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.product-grid .item {
+  
+  flex: 1 1 140px; 
+  display:grid;
+  place-items:center;
+  min-height:80px;
+  background: #f3f4f6;
+  border:1px solid #e5e7eb;
+  border-radius:10px;
+}
 
 .tagline{
     color: var(--muted);
