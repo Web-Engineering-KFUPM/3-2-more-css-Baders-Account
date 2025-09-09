@@ -177,8 +177,7 @@ body {
 
 
 .box {
-  /* TODO: set the width and height; add padding; add border */
-  /* TODO: rounded corners; flex centering */
+
   width: 120px;
   height: 80px;
   padding: 0.75rem;
@@ -191,16 +190,13 @@ body {
   font-weight:600;
 }
 .b1 {
-  /* TODO (WRITE): unique style */
   background: #e0f2fe;
   border-color: #93c5fd;
    }
 .b2 {
-  /* TODO (WRITE): unique style */
   background: #dcfce7;
   border-color: #86efac;}
 .b3 {
-  /* TODO (WRITE): unique style */
   background: #fee2e2;
   border-color: #fca5a5; 
 }
